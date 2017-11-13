@@ -231,82 +231,197 @@ textarea.message {
 * {
     box-sizing: border-box;
 }
-/*Optimized for @media screen and (min-width: 1200px) {
-}*/
 
-@media screen and (max-width: 1024px) {
-    body, h3 {
-        font-size: .8em;
-    }
-    .header-container {
-        height: 50px;
-    }
-    header, .s-header {
-        font-size: 1.125em;
-    }
-    nav {
-        font-size: .65em;
-    }
-    aside {
-        font-size: 1em;
-    }
-    .test label {
-        font: 150px .8em;
-    }
-    input[type=text].icon, #message {
-        font-size: .6em;
-    }
-    li {
-        width: 17%;
-    }
-}
 
 
 @media screen and (max-width: 768px) {
-    body, h3 {
-        font-size: 1.5em;
-    }
-    .header-container {
-        height: 45px;
-    }
     header, .s-header {
-        font-size: 1.25em;
+        font-size: 1em;
     }
     header, section {
-        margin-left: 5%;
+        margin-left: 2%;
+    }
+    body {
+        font-size: 2em;
+        width: 768px
+    }
+    .header-container {
+        height: 90px;
+        min-width: 0px;
+        max-width: 768px;
+    }
+
+    header {
+        width: 275px;
     }
     nav {
         font-size: .55em;
-        margin-right: 5%;
+        margin-right: -2%;
+        width: 350px;
     }
+    li {
+        font-size: 1em;
+        width: 16%;
+    }
+
+    section {
+        width: 715px;
+    }
+    article{
+        width: 695px;
+        font-size: 1em;
+    }
+    #aboutmeimage{
+        margin-left: 5px;
+        width: 350px;
+    } 
+
+    h3{
+        margin-left: 5px;
+        width: 685px;
+        font-size: .65em;
+        line-height: 30px;
+    }  
     aside {
-        font-size: .85em;
+        width: 715px;
+        font-size: .75em;
         margin-right: 0px;
+        text-align:left;
     }
+    .cwm {
+        text-align: left;
+    }
+
+    .floating-footer {
+    font-size: .4em;
+    }
+    /*Portfolio*/
+    div.gallery img {
+        width: 325px;
+        border: 1px solid white;
+    }
+    div.desc {
+        color: white;
+        font-size: .5em;
+        text-align: center;
+        height: 3em;
+        width: 324px;
+        background: #4aaaa5;
+    }
+
+    /*Contact*/
+     
     .test label {
         font: 130px .7em;
     }
     input[type=text].icon, #message {
         font-size: .5em;
     }
+    
+    #message, .test input[type=text], .test select {
+        width: 675px;
+        border: none;
+        border-radius: 0px;
+        box-shadow: inset 0 1px 3px #ddd;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    header, .s-header {
+        font-size: 1em;
+    }
+    header{
+        margin-left: 0%;
+    }
+    body {
+        font-size: 2em;
+        width: 640px
+    }
+    .header-container {
+        height: 80px;
+        min-width: 0px;
+        max-width: 640px;
+    }
+
     header {
-        width: 275px;
+        width: 640px;
+        margin-right: 0px;
     }
     nav {
-        width: 350px;
+        font-size: .35em;
+        margin-right: 0%;
+        width: 640px;
+        background-color: white;
+        border-bottom: 2px solid grey;
     }
+
     li {
-        font-size: 1.5em;
-        width: 18%;
+        font-size: 1em;
+        width: 16%;
     }
+
+    section {
+        margin-left: 3%;
+        width: 92%;
+
+
+    }
+    article{
+        width: 92%;
+        font-size: .9em;
+    }
+    #aboutmeimage{
+        margin-left: 5px;
+        width: 535px;
+    } 
+
+    h3{
+        margin-left: 5px;
+        width: 90%;
+        font-size: .65em;
+        line-height: 30px;
+    }  
+    aside {
+        width: 640px;
+        font-size: .75em;
+        margin-right: 0px;
+        text-align:left;
+    }
+    .cwm {
+        text-align: left;
+    }
+
+    .floating-footer {
+    font-size: .4em;
+    }
+    /*Portfolio*/
     div.gallery img {
-        width: 200px;
+        width: 535px;
         border: 1px solid white;
     }
-    section {
-        width: 750px;
+    div.desc {
+        color: white;
+        font-size: .75em;
+        text-align: center;
+        height: 2em;
+        width: 533px;
+        background: #4aaaa5;
     }
-    h3{
-        width: 730px;
+
+    /*Contact*/
+     
+    .test label {
+        font: 130px .7em;
+    }
+    input[type=text].icon, #message {
+        font-size: .5em;
+    }
+    
+    #message, .test input[type=text], .test select {
+        width: 535px;
+        border: none;
+        border-radius: 0px;
+        box-shadow: inset 0 1px 3px #ddd;
     }
 }
